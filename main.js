@@ -20,7 +20,7 @@ var timerInterval; // must be set outside timer function so it can be cleared by
   //START BUTTON
       function startButtonHandler(evt){
         //define counter and set interval
-        timerInterval = setInterval(timer, 1);
+        timerInterval = setInterval(timer, 10);
         var counter = 0;
         //counter function and printing
         function timer(){
